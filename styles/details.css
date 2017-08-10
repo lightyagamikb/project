@@ -1,0 +1,21 @@
+.details{
+    position: relative;
+    background-color:white;
+    height: 480px;
+}
+.details_header{
+    text-align:center;
+    margin:10px;
+}
+
+.details_imgs{
+    width:100px;
+    height:100px;
+}
+.details_head{
+    font-size:20px;
+}
+.d_h_des{
+    max-width:250px;
+    text-align:center;
+}

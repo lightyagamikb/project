@@ -3,18 +3,9 @@
 	padding:0px;
 }
 body{
-	background: black;
+	background: white;
 }
 
-.header_description{
-	background: #663333;
-	height:220px;
-}
-
-.details{
-	background:#FFCC99;
-	height: 480px;
-}
 .recent_works{
 	background: #9999CC;
 	height:320px;

@@ -2,9 +2,26 @@
     overflow:hidden;
     height:300px;
     margin:5px 0px;
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    position: relative;
 }
 .slide_img{
     height:300px;
     width:100%;
     margin:5px 0px;
+    -webkit-animation:;
+    -o-animation:;
+    animation:slideimg 3s;
+}
+
+@keyframes slideimg {
+    0%{opacity:1;}
+    25%{opacity:1;}
+    50%{opacity:0.8;}
+    75%{opacity:0.8;}
+    100%{opacity:0.6;}
 }

@@ -1,0 +1,41 @@
+/*imge btns*/
+
+.img_btn{
+    background-color: #5C755E;
+    position:absolute;
+    top:140px;
+    background-color:rgba(255,255,255,0);
+    font-size: 30px;
+}
+.img_btn2{
+    right:0px;
+}
+
+/*
+header description btns*/
+
+
+.h_des_btn{
+    width:130px;
+    height:40px;
+    margin:10px;
+    padding:5px;
+    background-color:orangered;
+    color:white;
+    font-weight: 600;
+    border:none;
+    border-radius:20px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.h_des_btn2{
+    background-color:black;
+}
+.des_btn_pos{
+    position: absolute;
+    top:95px;
+    left:448px;
+}
