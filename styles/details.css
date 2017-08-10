@@ -2,10 +2,29 @@
     position: relative;
     background-color:white;
     height: 480px;
+    margin-bottom:20px;
 }
 .details_header{
     text-align:center;
-    margin:10px;
+    margin-top:15px;
+    margin-bottom:12px;
+}
+.details_wide_box{
+    float:left;
+    /*border:1px solid red;*/
+    margin-left:50px;
+    margin-bottom:10px;
+
+}
+.details_des_box{
+    /*border:1px solid;*/
+    width:300px;
+    height:215px;
+    text-align:center;
+    padding:5px;
+    float:left;
+    margin-left:40px;
+
 }
 
 .details_imgs{
@@ -14,8 +33,9 @@
 }
 .details_head{
     font-size:20px;
+    margin-top:20px;
+    margin-bottom:10px;
 }
 .d_h_des{
-    max-width:250px;
-    text-align:center;
+    max-width:300px;
 }

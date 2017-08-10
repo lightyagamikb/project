@@ -34,8 +34,11 @@ header description btns*/
 .h_des_btn2{
     background-color:black;
 }
+.h_des_btn2:hover{
+    background-color: orangered;
+}
 .des_btn_pos{
     position: absolute;
-    top:95px;
+    top: 100px;
     left:448px;
 }
