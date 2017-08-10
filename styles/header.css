@@ -1,0 +1,37 @@
+.header{
+    border:1px solid;
+    height:80px;
+    background: #fff;
+}
+.logo{
+    font-style: italic;
+    font-size:25px;
+    float:left;
+    position:relative;
+    left:180px;
+    top:6px;
+    font-size:49px;
+    font-weight:bold;
+
+
+}
+
+.header_menu ul li {
+    list-style: none;
+    float:left;
+    margin:10px ;
+    margin-top:20px;
+    padding:8px;
+    border-radius:6px;
+    transition:all 0.8s;
+
+}
+.header_menu ul li:hover{
+    background-color:orangered;
+    color:white;
+}
+
+.header_menu{
+    float:right;
+
+}

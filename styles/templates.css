@@ -1,0 +1,49 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background: black;
+}
+
+.header_description{
+	background: #663333;
+	height:220px;
+}
+
+.details{
+	background:#FFCC99;
+	height: 480px;
+}
+.recent_works{
+	background: #9999CC;
+	height:320px;
+}
+.client_dis{
+	background:#FFFFCC;
+	height:320px;
+}
+.pricing_block{
+	background:#99CC99;
+	height: 400px;
+}
+.devs_details{
+	background:#CCCC99;
+	height:280px;
+}
+.blog_extentions{
+	background:#9C9F84;
+	height:260px;
+}
+.client_block{
+	background-color:#A97D5D;
+	height:190px;
+}
+.user_req{
+	background-color:#F7DCB4;
+	height:210px;
+}
+.footer{
+	background-color: #5C755E;
+	height:380px;
+}
