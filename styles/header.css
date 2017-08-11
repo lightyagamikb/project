@@ -12,8 +12,6 @@
     top:6px;
     font-size:49px;
     font-weight:bold;
-
-
 }
 
 .header_menu ul li {
@@ -28,6 +26,10 @@
     transition:all 0.8s;
 
 }
+.header_menu ul li:first-child{
+    background-color:orangered;
+}
+
 .header_menu ul li:hover{
     background-color:orangered;
     color:white;
@@ -42,7 +44,7 @@
 /*header descriptin*/
 
 .header_description{
-    background:rgba(255,255,255,0.4);
+    /*background:rgba(255,255,255,0.4);*/
     height:175px;
     position: relative;
 }
