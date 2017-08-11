@@ -1,0 +1,12 @@
+.recent_works{
+    background: #9999CC;
+    height:320px;
+}
+.r_w_head{
+    text-align:center;
+    padding:10px;
+}
+.r_w_imgs{
+    width:100px;
+    height:100px;
+}
