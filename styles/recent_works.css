@@ -10,6 +10,9 @@
 }
 .r_w_img_wide_box{
     float:left;
+   /* border:1px solid brown;*/
+    padding:5px;
+    margin-left:70px;
     /*margin-left:61px;*/
     /*text-align:center;
     margin-left:auto;
@@ -19,7 +22,6 @@
     clear:both;
     content:" ";
 }*/
-
 .r_w_img_box{
     width:235px;
     text-align:center;

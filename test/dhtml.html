@@ -1,0 +1,123 @@
+<html>
+<head>
+	<title>dhtml</title>
+	<script type="text/javascript" src="jq.js"></script>
+	<style type="text/css">
+		table,thead,tbody,th,tr,td{
+			border:1px solid;
+			border-collapse: collapse;
+		}
+		tr{
+			height: 30px;
+		}
+		.btn{
+			margin:10px;
+			padding:10px;			 
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<table>	
+			<thead>
+				<th>CkB</th>
+				<th>S.NO</th>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Gender</th>
+				<th>Age</th>
+			</thead>
+			<tbody id="tbody">	
+				<tr>
+					<td> <input type='checkbox'> </td>
+					<td>1</td>
+					<td>001</td>
+					<td>CHINNA</td>
+					<td>MALE</td>
+					<td>34</td>
+				</tr>				 
+
+			</tbody>	
+
+		</table>
+	</div>
+	<div class="btn">		 
+		<button class="btn_add"  onclick="add_btn()">ADD</button>
+		<button class="btn_rm" onclick="rm_row()">REMOVE</button>
+		<button class="btn_updt">UPDATE</button>
+
+	</div>
+	<script type="text/javascript">
+
+		var addBtn = document.querySelector(".btn_add");
+		var rmBtn = document.querySelector(".btn_rm");
+		var updtBtn = document.querySelector(".btn_updt");
+		var tBody = document.getElementById("tbody");
+		var inputCkb;
+
+		function add_btn(){				 
+			var row = document.createElement("tr");
+
+			var rData0 = document.createElement("td");
+		 	inputCkb = document.createElement("input");
+			inputCkb.setAttribute("type","checkbox");
+			inputCkb.setAttribute("class","chk_box");			
+			rData0.appendChild(inputCkb);	
+			row.appendChild(rData0);
+
+			var rData1 = document.createElement("td");
+			var input1 = document.createElement("input");
+			rData1.appendChild(input1);			 
+			row.appendChild(rData1);
+
+			var rData2 = document.createElement("td");
+			var input2 = document.createElement("input");			
+			rData2.appendChild(input2);
+			row.appendChild(rData2);
+
+			var rData3 = document.createElement("td");
+			var input3 = document.createElement("input");
+			rData3.appendChild(input3);
+			row.appendChild(rData3);
+
+			var rData4 = document.createElement("td");
+			var input4 = document.createElement("input");
+			rData4.appendChild(input4);
+			row.appendChild(rData4);
+
+			var rData5 = document.createElement("td");
+			var input5 = document.createElement("input");
+			rData5.appendChild(input5);
+			row.appendChild(rData5);
+
+			tBody.appendChild(row);
+
+		}
+
+		/*remove function*/
+
+
+		function rm_row(){
+			/*if(inputCkb.checked){
+				$(inputCkb).parent().parent().remove();
+				 console.log("ok suc");
+			}else{
+				alert("fail");
+			};*/
+			 /*ar x = inputCkb.checked;
+			x=[];
+			console.log(x);*/
+			/*var x = $("chk_box").checked.value();
+			console.log(x);*/
+			$("chk_box").on("change",function(){
+				alert();
+			})
+
+
+			 
+		}
+
+	</script>
+</body>
+</html>
