@@ -1,0 +1,40 @@
+.devs_details{
+    background:#eee;
+    height:280px;
+    text-align:center;
+}
+.dev_details_header{
+    padding-top:40px;
+    padding-bottom:20px;
+    font-weight: 400;
+}
+.dev_details_img_box{
+
+}
+.dev_img_box{
+    display:inline-block;
+    margin:10px;
+
+}
+.dev_img{
+    width:130px;
+    height:130px;
+    -webkit-filter: sepia(50%);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.dev_caption{
+    font-size:15px;
+    font-family:sans-serif;
+}
+
+.dev_img_box:hover .dev_img{
+    -webkit-transform: scale(0.9,0.9);
+    -moz-transform: scale(0.9,0.9);
+    -ms-transform: scale(0.9,0.9);
+    -o-transform: scale(0.9,0.9);
+    transform: scale(0.9,0.9);
+}

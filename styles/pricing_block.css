@@ -9,6 +9,7 @@
     margin-bottom:20px;
 }
 .pricing_block_tbl_box {
+
 }
 
 .pricing_table{
@@ -19,6 +20,12 @@
     font-size:16px;
     display:inline-block;
     margin-left:20px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
 }
 
 .price_tbl_head{
@@ -29,6 +36,11 @@
 .pricing_tbl_list li{
     list-style:none;
     margin-bottom:10px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
    /* padding:5px;*/
 }
 
@@ -53,10 +65,16 @@
     margin-top:10px;
     margin-bottom:10px;
     border:none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
 }
 
 .pricing_table:hover{
     border-color:orangered;
+    transform: scale(1.1,1.1);
 }
 .pricing_table:hover .pricing_tbl_list li:nth-child(1){
     background-color:orangered;
