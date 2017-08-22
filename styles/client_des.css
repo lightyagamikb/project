@@ -1,0 +1,44 @@
+.client_des{
+    background:#eeeeee;
+    height:320px;
+    text-align:center;
+  /*  color:#8B8683;*/
+
+}
+
+.client_des_box{
+   /* text-align:center;*/
+}
+.client_header{
+    padding-top:50px;
+
+}
+.client_quto{
+    height:60px;
+    width:60xp;
+    margin-top:20px;
+}
+.client_details{
+    font-weight: 400;
+    font-size:20px;
+ }
+.client_img_box{
+
+    display:inline-block;
+    margin:15px;
+  /*  margin:0px auto;*/
+}
+.client_img{
+    border-radius:50%;
+    height:80px;
+    width:80px;
+}
+.client_img_border{
+    float:left;
+    border:2px solid ;
+    border-radius:50%;
+    width:83px;
+    height:83px;
+    margin-left:20px;
+
+}
