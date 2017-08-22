@@ -1,6 +1,7 @@
 *{
 	margin:0px;
 	padding:0px;
+	box-sizing: border-box;
 }
 body{
 	/*background: white;*/
@@ -11,10 +12,7 @@ body{
 
 
 
-.client_block{
-	background-color:#A97D5D;
-	height:190px;
-}
+
 .user_req{
 	background-color:#F7DCB4;
 	height:210px;

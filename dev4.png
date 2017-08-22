@@ -338,11 +338,45 @@
 		</div>
 
 		<div class="client_block">
-			
+			<h2 class="client_block_header">Our Client</h2>
+			<div class="client_block_logos_box">
+				<div class="client_block_img_box">
+					<img src="images/client_imgs/client1.png" class="client_block_img"/>
+				</div>
+				<div class="client_block_img_box">
+					<img src="images/client_imgs/client2.png" class="client_block_img"/>
+				</div>
+				<!--<div class="client_block_img_box">
+					<img src="images/client_imgs/client3.png" class="client_block_img"/>
+				</div>-->
+				<div class="client_block_img_box">
+					<img src="images/client_imgs/client4.png" class="client_block_img"/>
+				</div>
+				<div class="client_block_img_box">
+					<img src="images/client_imgs/client5.png" class="client_block_img"/>
+				</div>
+				<div class="client_block_img_box">
+				<img src="images/client_imgs/client6.png" class="client_block_img"/>
+			</div>
+			</div>
 		</div>
 
 		<div class="user_req">
-			
+			<h2 class="user-req_header">Stop Wasting Your Website's Potential</h2>
+			<p class="user_req_des">Aliquid beatae consequatur cumque doloribus earum explicabo harum magni molestiae nostrum officiis, possimus praesentium, reprehenderit similique tenetur velit voluptas? consequatur cumque doloribus earum explicabo</p>
+			<div class="user_req_input_block">
+				<ul>
+					<li>
+						<input type="text" class="user_req_input" placeholder="Your name">
+					</li>
+					<li>
+						<input type="text" class="user_req_input" placeholder="Your email">
+					</li>
+					<li>
+						<button class="input_req_input_btn user_req_input">Request Quote</button>
+					</li>
+				</ul>
+			</div>
 		</div>
 
 		<div class="footer">
