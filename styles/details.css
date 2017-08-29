@@ -1,26 +1,26 @@
 .details{
     position: relative;
-    background-color:#eeeeee;
-    height: 517px;
+    background-color:#eeeeee;    
     margin-bottom:20px;
     padding-top:20px;
     padding-bottom:20px;
+    text-align: center;
 }
 .details_header{
-    text-align:center;
+    /*text-align:center;*/
     margin-top:15px;
     margin-bottom:12px;
     padding-bottom:10px;
+    font-weight: 400;
 }
 .details_wide_box{
-    float:left;
+    display: inline-block;
+    margin:20px 0px;
     /*border:1px solid red;*/
     /*position:absolute;
     left:50%;
-    margin-left:-450px;*/
-    margin-left:120px;
-    margin-right:auto;
-
+    margin-left:-450px;*/   
+   
 }
 .details_des_box{
     /*border:1px solid;*/

@@ -38,7 +38,8 @@ header description btns*/
     background-color: orangered;
 }
 .des_btn_pos{
-    position: absolute;
-    top: 100px;
-    left:448px;
+    display:inline-block;
+    margin-bottom:20px;
+    margin-top:20px;
+
 }

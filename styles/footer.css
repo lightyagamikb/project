@@ -1,0 +1,138 @@
+.footer{
+	background-color: #4B484F;
+	text-align:center;
+	position: relative;
+	padding:10px;
+}
+.footer_details_box{
+
+}
+.footer_detail{
+	text-align:center;
+	color:#6A676E;
+	display:inline-block;
+	margin:40px;
+}
+.footer_detail_header{
+	font-size:18px;
+	font-weight: 400;
+	margin-bottom:10px;
+	color:white;
+}
+.footer_soci_png{
+	width:32px;
+	height:32px;
+	margin:5px;
+}
+.footer_soci_png:hover{
+	background-color:orangered;
+	border-radius:50%;
+}
+.footer_detail_ext_link{
+	font-size: 15px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.footer_detail_inputmail {
+	width: 170px;
+	height: 30px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.footer_detail_inptbtn{
+	height:30px;
+	width:40px;
+	background-color:orangered;
+	color:white;
+	border:none;
+	border-radius:5px;
+}
+.footer_border1{
+	width:80%;
+	border:1px solid rgba(107,101,112,0.3);
+	margin:auto;
+}
+.footer_border2{
+	width:79%;
+	border:1px solid rgba(107,101,112,0.1);
+	margin:2px auto;
+
+}
+.footer_border3{
+	width:79%;
+	border:1px solid rgba(107,101,112,0.1);
+	margin:auto;
+}
+
+.footer_detail_twit_header{
+	font-size:17px;
+	font-weight: 400;
+	color:white;
+	margin:15px auto;
+}
+.footer_detail_twit_msg{
+	width:300px;
+	height:100px;
+	text-align:center;
+	border:1px solid rgba(107,101,112,0.1);
+	background-color:#434248;
+	color:#6A676E;
+	padding:10px;
+	margin:5px;
+}
+
+.footer_detail_sec_twit{
+	margin-left:-100px;
+	margin-right:100px;
+
+}
+.footer_detail_img{
+	width:100px;
+	height:100px;
+	margin:5px;
+
+}
+
+/*.footer_detail_sec_twit{
+	display:inline-block;
+
+}*/
+
+/*.footer_detail_img_block{
+	display:inline-block;
+}*/
+
+.footer_detail_section2{
+	display:flex;
+	position: relative;
+	left:50%;
+	top:50%;
+	margin-left:-300px;
+}
+.footer_border1_vert{
+	border:1px solid rgba(107,101,112,0.2);
+	height:150px;
+	margin-top:30px;
+}
+.footer_border2_vert{
+	border:1px solid rgba(107,101,112,0.1);
+	height:150px;
+	margin-top:30px;
+	margin-left:4px;
+	margin-right:4px;
+	vertical-align:middle;
+	display: inline-block;
+}
+.footer_border3_vert{
+	border:1px solid rgba(107,101,112,0.1);
+	height:150px;
+	margin-top:30px;
+}
+.footer_detail_img_block{
+	margin-left:105px;
+}
+.footer_detail_hr_border{
+	width:80%;
+	display: inline-block;
+	border:2px solid rgba(107,101,112,0.6)
+}

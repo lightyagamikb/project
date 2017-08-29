@@ -1,18 +1,14 @@
-.recent_works{
-    /*background: #9999CC;*/
-    height:320px;
-    text-aling:center;
-
+.recent_works{        
+    text-align:center;
 }
 .r_w_head{
     text-align:center;
     padding:10px;
 }
 .r_w_img_wide_box{
-    float:left;
+    display: inline-block;
    /* border:1px solid brown;*/
-    padding:5px;
-    margin-left:70px;
+    padding:5px;    
     /*margin-left:61px;*/
     /*text-align:center;
     margin-left:auto;
@@ -23,11 +19,10 @@
     content:" ";
 }*/
 .r_w_img_box{
-    width:235px;
-    text-align:center;
-    float:left;
+    width:235px;        
     padding:5px;
     margin:10px;
+    display: inline-block;
 }
 .r_w_imgs{
     width:250px;

@@ -2,22 +2,20 @@
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
+	list-style:none;
+
 }
 body{
 	/*background: white;*/
 }
 
-
-
-
-
-
-
-.user_req{
-	background-color:#F7DCB4;
-	height:210px;
+a:link {
+	text-decoration: none;
 }
-.footer{
-	background-color: #5C755E;
-	height:380px;
-}
+
+
+
+
+
+
+

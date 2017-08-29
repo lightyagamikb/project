@@ -45,8 +45,9 @@
 
 .header_description{
     /*background:rgba(255,255,255,0.4);*/
-    height:175px;
-    position: relative;
+    /*height:175px;*/
+    /*position: relative;*/
+    text-align: center;
 }
 
 .h_des_subhead{
